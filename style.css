@@ -123,16 +123,9 @@ html {
   font-weight: bold;
 }
 
-.card-part p {
-  height: 50px;
-  width: 140px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .card-part + .card-part {
   border-top: 1px solid gray;
+  padding-top: 10px;
 }
 
 .card-links {
@@ -178,6 +171,7 @@ html {
 
 .announcements .card {
   grid-row: 2;
+  gap: 10px;
 }
 
 .trending .card {
